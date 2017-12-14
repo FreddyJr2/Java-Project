@@ -1,6 +1,16 @@
 
 public class Administrator {
 	private String adminID;
+	private String adminPass;
+	
+	
+	public Administrator(String adminID, String adminPass) {
+		super();
+		this.adminID = adminID;
+		this.adminPass = adminPass;
+	}
+
+	
 	public String getAdminID() {
 		return adminID;
 	}
@@ -13,9 +23,6 @@ public class Administrator {
 	public void setAdminPass(String adminPass) {
 		this.adminPass = adminPass;
 	}
-
-	private String adminPass;
-	
 	public void addSalesman(){
 		
 		
