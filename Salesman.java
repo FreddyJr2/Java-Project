@@ -1,4 +1,3 @@
-
 public class Salesman extends Administrator{
 	protected static String phoneNum;
 	protected static String salesmanID;
@@ -44,6 +43,15 @@ public class Salesman extends Administrator{
 	}
 
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
